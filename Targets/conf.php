@@ -8,13 +8,11 @@ include("EAPI.class.php");
 $api = new EAPI();
 
 // Configuration settings
-//$api->clientCode = "787";
-//$api->username = "RobinDev";
-//$api->password = "87affefe3";
 
-$api->clientCode = "20501";
-$api->username = "apitestuser";
-$api->password = "B3KõMlBÜwLäHfCvG";
+
+$api->clientCode = "";
+$api->username = "";
+$api->password = "";
 
 $api->url = "https://".$api->clientCode.".erply.com/api/";
 
